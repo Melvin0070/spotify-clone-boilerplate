@@ -110,3 +110,38 @@ h6{
     right:0;
     margin-top: 20px;
 }
+#heart{
+    position:absolute;
+    left:0;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+#rel{
+    position: relative;
+    top:0;
+    left: 0;
+
+}
+.img1{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 70px;
+
+
+}
+.img2{
+    position:absolute;
+    top: 190px;
+    left: 33px;
+width: 25px;
+}
+.liked{
+    display: inline-block;
+    margin-right: 15px;
+    width: 250px;
+    margin-top: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
