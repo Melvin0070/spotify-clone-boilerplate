@@ -4,36 +4,61 @@
     padding: 0px;
 }
 body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+background-image: linear-gradient(to top, black, rgb(50, 50, 50));
+
 }
 #left-section{
+    display: inline-block;
     background-color: black;
-    width: 250px;
-    height: 10in;
+    width: 240px;
+    height: 8in;
+    
 }
 #logo {
     background-color: black;
-    width: 250px;
+    width: 200px;
 }
 
-nav{
-    margin-top: 20px;
-}
+
 button{
     font-size: medium;
     background-color: black;
     color: white;
-    width: 250px;
+    width: 200px;
     align-self: flex-start;
     border-radius: 10px;
     border: none;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-top: 10px;
 }
 button:hover{
     background-color: gray;
 }
-#middle{
-    background-image: linear-gradient(to top, black, grey);
+
+.One{
+    padding-right: 50px;
+    margin-left: 50px;
+    
+    
 }
-.newn{ 
- margin-top: 10px;
+.two{
+    padding-right: 50px;
+    margin-left: 10px;
+}
+.neew-nav{
+    margin-top: 40px;
+    margin-left: 10px;
+    
+}
+.install{
+    margin-top: 10px;
+}
+#middle{
+    color: white;
+    margin-left: 250px;
+    position:absolute;
+    
+}
+.nav_button{
 }
