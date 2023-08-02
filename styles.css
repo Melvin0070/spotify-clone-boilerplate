@@ -11,12 +11,15 @@ background-image: linear-gradient(to top, black, rgb(50, 50, 50));
     display: inline-block;
     background-color: black;
     width: 240px;
-    height: 8in;
+    height: 20in;
+
     
 }
 #logo {
     background-color: black;
-    width: 200px;
+    width: 140px;
+    padding-left: 15px;
+    padding-top: 20px;
 }
 
 
@@ -24,21 +27,29 @@ button{
     font-size: medium;
     background-color: black;
     color: white;
-    width: 200px;
+    width: 230px;
     align-self: flex-start;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     padding-bottom: 10px;
     text-align: left;
     padding-top: 10px;
+    padding-left: 10px;
+}
+.icon{
+    padding-bottom: none;
+    margin-bottom: none;
 }
 button:hover{
     background-color: gray;
 }
-
+nav{
+    margin-top: 10px;
+}
 .One{
     padding-right: 50px;
-    margin-left: 50px;
+    margin-left: 10px;
+    
     
     
 }
@@ -56,9 +67,46 @@ button:hover{
 }
 #middle{
     color: white;
-    margin-left: 250px;
+    display:inline-block;
     position:absolute;
+    margin-left: 25px;
+
     
 }
 .nav_button{
+    margin-top: 10px;
+
+}
+h6{
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+
+}
+#songs{
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+
+}
+.songname{
+    position:absolute;
+    margin-top: 40px;
+    
+}
+.artist{
+    font-size: small;
+}
+#player{
+
+   margin-top: auto;
+   margin-left: 250px;
+}
+#left{
+    position:absolute;
+    margin-right: 20px;
+    right:0;
+    margin-top: 20px;
 }
