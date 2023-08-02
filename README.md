@@ -13,3 +13,7 @@ The font used: DM Sans
 
 
 If you need more icons you can visit [flaticons.com](https://www.flaticon.com/)
+
+My output:
+
+![SS](https://github.com/Melvin0070/spotify-clone-boilerplate/assets/139456150/7eff7af6-719c-4b5f-b67b-32b02596339f)
