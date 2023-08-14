@@ -3,63 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPOTIFY CLONE</title>
+    <title>Spotify-Clone</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
-        
 </head>
 <body>
-
-    <span id="left-section">
-        <img id="logo" src="assets\Spotify logo.png">
-        <nav class="nav">
-            <button><img src="assets\Home.png" width = 20px><span class="One">Home</span></button>
-            <button><img src="assets\Search.png"width = 20px><span class="One">Search</span></button>
-            <button><img src="assets\Your library.png"width=25px><span class="One">Library</span><button>
-
-        </nav>
-        <nav class="new-nav">
-            <button>
-            <img src="assets/object3.png" width = 25px><span class="One">Create Playlist</span></button>
-            <button><img src="assets/object1.png"width = 25px><span class="two">Liked Song</span></button>
-            <button><img src="assets\object4.png"width=25px><span class="two">Your Episode</span></button>
-        </nav>
-        <nav class="neew-nav">
-            <button>FV</button>
-            <button>Daily mix 1</button>
-            <button>Dsicover Weekly</button>
-            <button>Malayalam</button>
-            <button>Dance/Eelctronic Music</button>
-            <button>EDM/Popular</button>
-            <button class="install"><img src="assets/grommet-icons_install-option.png" width="20px"> Install app</button>
-        </nav>
+    <div class="flex-container">
+        <header class="left_nav">
         
-    </span>
-    <div id="middle">
+            <img class="logo" src="assets/Spotify logo.png" alt="">
+            <div class="first">
+                <div class="one">
+                    <img class= "icon" src="assets/Home.png">
+                    <p class="list_text">Home</p>
+                </div>
+                <div class="one">
+                    <img class= "icon" src="assets/Search.png">
+                    <p class="list_text">Search</p>
+                </div>
+                <div class="one">
+                    <img class= "icon" src="assets/Your library.png">
+                    <p class="list_text">Your Library</p>
+                </div>
+            </div>
+            <div class="second">
+                <div class="one">
+                    <img class= "icon" src="assets/object3.png">
+                    <p class="list_text">Create Playlist</p>
+                </div>
+                <div class="one">
+                    <img class= "icon" src="assets/object1.png">
+                    <p class="list_text">Liked Songs</p>
+                </div>
+                <div class="one">
+                    <img class= "icon" src="assets/object4.png">
+                    <p class="list_text">Your Episodes</p>
+                </div>
+            </div>
+            <div class="third">
+                <div class="one">
+                    <p class="list_text">Fav</p>
+                </div>
+                <div class="one">
+                    <p class="list_text">Daily Mix 1</p>
+                </div>
+                <div class="one">
+                    <p class="list_text">Discover Weekly</p>
+                </div>
+                <div class="one">
+                    <p class="list_text">Malayalam</p>
+                </div>
+                <div class="one">
+                    <p class="list_text">Dance / Electronic Mix</p>
+                </div>
+                <div class="one">
+                    <p class="list_text">EDM / Popular</p>
+                </div>
+            </div>
+
+
+        </header>
+    <div class="main_top">
         <div>
-        <img class="nav_button" src="assets\top arrow navigation.png" width="75px">
+        <img class="nav_button" src="assets/top arrow navigation.png" alt="">
+        <img class="login" src="assets/object2.png" alt="">
         </div>
-        <h6>Good morning</h6>
-    </nav>
-    <div class="songies">
-    <div>
-    <div class="liked"><button class="rel"><img class="img1" src="assets/object1.png">Liked</button><img class="img2" src="assets\heart.png"></div>
-    <div class="liked"><button><img src="assets\image4.png" width="70px">Neffex playlist</button></div>
-    <div class="liked"><button><img src="assets\image3.png" alt=""width="70px">K/Da</button></div>
-    <div class="liked"><button><img src="assets\image1.png" alt=""width="70px">Liked Songs</button></div>
-    <divc class="liked"><button><img src="assets\image2.png" alt=""width="70px">Dance/Electronic </button></div>
-    </div>
-        
 
-<footer id="songs">
-    <button><img src="assets\image11.png" alt="" width="75px"><span class="songname">Dream On<br><span class="artist">Neffex</span></span></button>
-    <img id="player" src="assets\Music Player Options.png" width="600px">
-    <img id="left" src="assets\Right options.png" width="250px">
-    <img id="heart" src="assets\bx_bxs-heart.png"width="25px" alt="">
-</footer>
+    <div>
+        <h6>Good Morning</h6>
     </div>
+    <section class="morning">
+    <div class="grid_container">
+        <div class="yes"> <img src="assets/object1.png" alt=""><span>Liked Songs</span></div>
+        <div class="yes"> <img src="assets/image4.png" alt=""><span>Neffex Playlist</span></div>
+        <div class="yes"> <img src="assets/image3.png" alt=""><span>K/ Da</span></div>
+        <div class="yes"> <img src="assets/image1.png" alt=""><span>Liked Songs</span></div>
+        <div class="yes"> <img src="assets/image2.png" alt=""><span>Dance/ Electronic Mix</span></div>
+    
+    </section>
+    <div>
+        <h6 class="h62">Shows you might like</h6>
+    </div>
+    <section class="like_shows">
+        <div class="grid_container2">
+            <div class="two"> <img src="assets/image9.png" alt=""><div>Weekly Motivation</div></div>
+            <div class="two"> <img src="assets/image8.png" alt=""><div>Meditation Self</div></div>
+            <div class="two"> <img src="assets/image7.png" alt=""><div>Words beyond</div></div>
+            <div class="two"> <img src="assets/image6.png" alt=""><div>The alexa Show</div></div>
+            <div class="two"> <img src="assets/image5.png" alt=""><div>The Stories</div></div>
+            <div class="two"> <img src="assets/image10.png" alt=""><div>Motivation Daily</div></div>
+            
+        </section>
+
 </div>
+    </div>
+    <footer class="player">
+        <img class="logos" src="assets/image11.png" alt="">
+        <img class="mid" src="assets/Music Player Options.png" alt="">
+        <img class="end" src="assets/Right options.png" alt="">
+    </footer>
+
 </body>
 </html>

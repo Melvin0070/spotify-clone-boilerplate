@@ -1,147 +1,161 @@
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap');
 *{
     margin: 0px;
+    box-sizing: border-box;
     padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    width: 100%;
 }
 body{
-background-image: linear-gradient(to top, black, rgb(50, 50, 50));
+    background-image: linear-gradient(to top, black, rgb(34, 34, 34));
+    background-repeat: no-repeat;
+    width: 100%;
 
 }
-#left-section{
-    display: inline-block;
-    background-color: black;
-    width: 240px;
-    height: 9in;
+.flex-container{
+    display: flex;
+    width: 100%;
+}
 
+.one{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
     
 }
-#logo {
-    background-color: black;
-    width: 140px;
-    padding-left: 15px;
-    padding-top: 20px;
-}
-
-
-button{
-    font-size: medium;
-    background-color: black;
+.list_text{
     color: white;
-    width: 230px;
-    align-self: flex-start;
-    border-radius: 5px;
-    border: none;
-    padding-bottom: 10px;
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 10px;
+    font-size: 1.3em;
+
+
 }
 .icon{
-    padding-bottom: none;
-    margin-bottom: none;
+    width: 26px;
 }
-button:hover{
-    background-color: gray;
+.left_nav{
+    height: 95vh;
+    display: flex;
+    /* justify-content:space-between; */
+    flex-direction: column;
+    gap: 40px;
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 30px;
+    position:static;
 }
-nav{
-    margin-top: 10px;
+.logo{
+    width: 170px;
 }
-.One{
-    padding-right: 50px;
-    margin-left: 10px;
-    
-    
-    
+.first, .second, .third {
+    display: grid;
+    gap: 20px;
+    padding-top: 3%;
+    margin-right: 100px;
+    width: 100%;
 }
-.two{
-    padding-right: 50px;
-    margin-left: 10px;
+.second .one{
+    padding-top: 2.5%;
 }
-.neew-nav{
-    margin-top: 40px;
-    margin-left: 10px;
-    
-}
-.install{
-    margin-top: 10px;
-}
-#middle{
-    color: white;
-    display:inline-block;
-    position:absolute;
-    margin-left: 25px;
+.one:hover{
+    background-color: grey;
 
-    
 }
-.nav_button{
-    margin-top: 10px;
+.main_top{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
 
+}
+.main_top > div{
+    display: flex;
+    justify-content:space-between;
+    width: 90%;
+    flex-wrap: wrap;
+
+}
+.main_top img{
+    width: 100px;
 }
 h6{
-    margin-top: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
-
-}
-#songs{
-    position:fixed;
-    bottom: 0;
-    left:0;
-    width: 100%;
-    background-color: rgb(24, 24, 24);
-
-}
-.songname{
-    position:absolute;
-    margin-top: 40px;
-    
-}
-.artist{
-    font-size: small;
-}
-#player{
-
-   margin-top: auto;
-   margin-left: 250px;
-}
-#left{
-    position:absolute;
-    margin-right: 20px;
-    right:0;
-    margin-top: 20px;
-}
-#heart{
-    position:absolute;
-    left:0;
-    margin-top: 40px;
-    margin-left: 200px;
-}
-#rel{
-    position: relative;
-    top:0;
-    left: 0;
-
-}
-.img1{
-    position: relative;
-    top:0;
-    left: 0;
-    width: 70px;
-
-
-}
-.img2{
-    position:absolute;
-    top: 190px;
-    left: 33px;
-width: 25px;
-}
-.liked{
-    display: inline-block;
-    margin-right: 15px;
-    width: 250px;
-    margin-top: 30px;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    margin-top: 7vh;
+    font-size: 2.7em;
+
+}
+.grid_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-top: 3vh;
+    align-items: center;
+}
+.grid_container img{
+    border-radius: 5px;
+    width: 25%;
+    vertical-align: middle;
+}
+
+.grid_container .yes{
+    background-color: rgb(52, 52, 52);
+    border-radius: 5px;
+    width: 19vw;
+
+}
+.grid_container .yes{
+    display: inline-block;
+}
+.grid_container span{
+    margin-left: 20px;
+    color: white;
+    font-size: 1.4em;
+}
+
+.grid_container2{
+    display: flex;
+
+    justify-content: space-between;
+    width: 90%;
+    gap: 1%;
+    margin-top: 2%;
+
+}
+.grid_container2 img{
+    width: 100%;
+    padding: 5% 10%;
+}
+.two div{
+    padding: 10%;
+    font-size: 1.4em;
+}
+.two{
+    background-color: rgb(27, 27, 27);
+    width: 270px;
+}
+.player{
+    position: sticky;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0.1px;
+}
+.logos{
+    width: 6%;
+    padding: 20px;
+}
+.mid{
+    width: 40%;
+    margin-left: 15%;
+
+}
+.end{
+    width: 17%;
+    margin-right: 1%;
+}
+.h62{
+    font-size: 2.2em;
 }
